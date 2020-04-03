@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="overview_title">Aperçu</string>
+    <string name="livestock_list_title">Elevages</string>
+    <string name="no_data">Pas de données à afficher</string>
+    <string name="app_name">Note d\'état corporelle</string>
+    <string name="menu_filter_by_number">Filtrer par numéro</string>
+    <string name="cow_list_title">Liste des animaux</string>
+    <string name="search_title">Recherche</string>
+    <string name="search_cow_hint">Numéro national</string>
+</resources>

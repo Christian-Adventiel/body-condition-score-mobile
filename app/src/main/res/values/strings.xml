@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Body Condition Score</string>
+    <string name="overview_title">Overview</string>
+    <string name="livestock_list_title">Livestocks</string>
+    <string name="no_data">No Data</string>
+    <string name="menu_filter_by_number">Filter by number</string>
+    <string name="cow_list_title">Cow List</string>
+    <string name="search_title">Search</string>
+    <string name="search_cow_hint">National number</string>
+</resources>

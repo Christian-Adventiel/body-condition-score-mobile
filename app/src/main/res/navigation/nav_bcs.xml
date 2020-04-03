@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeViewPagerFragment">
+    <fragment
+        android:id="@+id/homeViewPagerFragment"
+        android:name="fr.adventiel.bcs.HomeViewPagerFragment"
+        android:label="HomeViewPagerFragment">
+        <action
+            android:id="@+id/action_homeViewPagerFragment_to_cowListFragment"
+            app:destination="@id/cowListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cowListFragment"
+        android:name="fr.adventiel.bcs.CowListFragment"
+        android:label="CowListFragment">
+        <argument
+            android:name="livestockId"
+            app:argType="long" />
+    </fragment>
+</navigation>

@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Bcs" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bcs_green_500</item>
+        <item name="colorOnPrimary">@color/bcs_yellow_500</item>
+        <item name="colorPrimaryDark">@color/bcs_green_700</item>
+        <item name="colorOnSurface">@color/bcs_black</item>
+        <item name="colorAccent">@color/bcs_green_700</item>
+        <item name="colorSurface">@color/bcs_gray_50</item>
+        <item name="colorSecondary">@color/bcs_yellow_500</item>
+        <item name="android:colorBackground">@color/bcs_green_500</item>
+    </style>
+
+    <style name="Theme.Bcs" parent="Base.Theme.Bcs"/>
+
+    <style name="Theme.Bcs.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Bcs.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+
+    <style name="TextAppearance.Bcs.Toolbar.Text" parent="TextAppearance.MaterialComponents.Headline5" >
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+
+</resources>
